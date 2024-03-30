@@ -47,6 +47,8 @@ The dataset is divided into 50,000 training images and 10,000 test images.
 5. The prediction will be shown along with the probability of the prediction.
 
 ## Screenshots
+![wireframe](https://github.com/SankritaPatel/ImageClassification/assets/161813782/9968ef3b-7f33-4648-a02d-1a620f049634)
+![Result1](https://github.com/SankritaPatel/ImageClassification/assets/161813782/f4315cec-d8ea-46bc-ab43-870115bad3d8)
 
 
 
