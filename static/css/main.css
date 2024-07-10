@@ -1,0 +1,56 @@
+body{
+    background-color: slategray;
+    text-align: center;
+}
+
+img{
+    margin: 60px 0 30px 0;
+    width: 250px;
+}
+
+#image-preview {
+    max-width: 300px;
+    height: auto;
+    cursor: pointer; /* Add pointer cursor to indicate clickability */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+input{
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: Shanti;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+input:focus{
+    border: solid 5px #3dd4b6;
+    outline: none;
+}
+
+p{
+    color: white;
+    font-family: Shanti;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+#upload{
+    background-color: palevioletred;
+    color: white;
+    width: 200px;
+}
+
+#upload:hover{
+    background-color: mediumvioletred;
+    cursor: pointer;
+}
