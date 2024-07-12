@@ -1,6 +1,6 @@
-# Image Classifier GUI
+# Image Classifier 
 
-This is a simple graphical user interface (GUI) for classifying images using a pre-trained convolutional neural network (CNN) model. The GUI allows users to select an image file from their file system and provides predictions on the content of the image.
+This is a simple web application for classifying images using a pre-trained convolutional neural network (CNN) model. The application allows users to select an image file from their file system and provides predictions on the content of the image.
 
 ## Dataset Information
 
@@ -24,7 +24,6 @@ The dataset is divided into 50,000 training images and 10,000 test images.
 - Python 3.x
 - TensorFlow
 - PIL (Python Imaging Library)
-- Taipy library for GUI
 - Image files for testing
 
 ## Installation
@@ -40,10 +39,10 @@ The dataset is divided into 50,000 training images and 10,000 test images.
 
 ## Usage
 
-1. Run the `main.py` script.
-2. The GUI window will open.
+1. Run the `app.py` script.
+2. The web application will open.
 3. Use the file selector to choose an image from your file system.
-4. The GUI will display the selected image and provide a prediction on its content.
+4. The application will display the selected image and provide a prediction on its content.
 5. The prediction will be shown along with the probability of the prediction.
 
 ## Screenshots
@@ -54,7 +53,7 @@ The dataset is divided into 50,000 training images and 10,000 test images.
 
 ## Credits
 
-- The GUI is built using the Taipy library.
+- The Web Application is built using the Flask library.
 
 ## License
 
